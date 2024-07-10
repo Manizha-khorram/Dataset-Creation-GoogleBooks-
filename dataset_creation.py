@@ -3,9 +3,8 @@
 import requests
 import pandas as pd
 from sklearn.model_selection import train_test_split
+from config import api_key
 
-#API Access
-api_key = 'AIzaSyDToY3uDCDCVTHRg9KAC46oMH5iBsFZafo'
 
 # Step 1: API key and query by title
 query = 'Data Science Machine Learning'
